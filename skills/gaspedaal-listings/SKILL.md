@@ -7,7 +7,11 @@ description: "Scrape used-car listings from Gaspedaal.nl, the Dutch car aggregat
 
 Scrape used-car listings from Gaspedaal.nl, the Dutch car aggregator: make, model, price, mileage, year, fuel, gearbox, power, city and the source site (AutoTrack, AutoScout24, dealer). Filter by make, price, year, km, postcode. Newest first. Add-ons: dealer details, price history.
 
-Runs on Apify as the Actor [`carabain-digital/gaspedaal-listings`](https://apify.com/carabain-digital/gaspedaal-listings). The user needs an Apify account and an API token ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)); runs are billed to their account.
+Runs on Apify as the Actor [`carabain-digital/gaspedaal-listings`](https://apify.com/carabain-digital/gaspedaal-listings), billed per result to the user's own Apify account.
+
+## Setup
+
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 3,571 car listings with this Actor.
 
 ## Run it
 

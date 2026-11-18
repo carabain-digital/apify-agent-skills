@@ -7,7 +7,11 @@ description: "Scrape car listings from Marktplaats (marktplaats.nl), the biggest
 
 Scrape car listings from Marktplaats (marktplaats.nl), the biggest classifieds site in the Netherlands: make, model, price, mileage, year, fuel, gearbox, body, seller and photos. Filter by make, model, price, year, mileage, postcode. Add-ons: full details with dealer phone, price history.
 
-Runs on Apify as the Actor [`carabain-digital/marktplaats-cars`](https://apify.com/carabain-digital/marktplaats-cars). The user needs an Apify account and an API token ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)); runs are billed to their account.
+Runs on Apify as the Actor [`carabain-digital/marktplaats-cars`](https://apify.com/carabain-digital/marktplaats-cars), billed per result to the user's own Apify account.
+
+## Setup
+
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 6,250 car listings with this Actor.
 
 ## Run it
 

@@ -7,7 +7,11 @@ description: "Scrape car listings from AutoScout24, Europe's biggest car marketp
 
 Scrape car listings from AutoScout24, Europe's biggest car marketplace: Germany, Netherlands, Belgium, Austria, Italy, France, Spain, Luxembourg. Filter by make, model, year, price, mileage, fuel. Price rating, dealer phone. Add-ons: full details with market price, price history.
 
-Runs on Apify as the Actor [`carabain-digital/autoscout24-listings`](https://apify.com/carabain-digital/autoscout24-listings). The user needs an Apify account and an API token ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)); runs are billed to their account.
+Runs on Apify as the Actor [`carabain-digital/autoscout24-listings`](https://apify.com/carabain-digital/autoscout24-listings), billed per result to the user's own Apify account.
+
+## Setup
+
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 17,857 car listings with this Actor.
 
 ## Run it
 

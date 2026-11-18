@@ -7,7 +7,11 @@ description: "Scrape used and new car listings from CarGurus (cargurus.com), the
 
 Scrape used and new car listings from CarGurus (cargurus.com), the biggest US car marketplace: price, CarGurus deal rating and Instant Market Value, mileage, VIN, specs and dealer phone. Search by ZIP, make, model, year, price, mileage. Newest first. Add-ons: full details, price history.
 
-Runs on Apify as the Actor [`carabain-digital/cargurus-listings`](https://apify.com/carabain-digital/cargurus-listings). The user needs an Apify account and an API token ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)); runs are billed to their account.
+Runs on Apify as the Actor [`carabain-digital/cargurus-listings`](https://apify.com/carabain-digital/cargurus-listings), billed per result to the user's own Apify account.
+
+## Setup
+
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 6,666 car listings with this Actor.
 
 ## Run it
 

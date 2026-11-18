@@ -7,7 +7,11 @@ description: "Search mobile.de, AutoScout24, Kleinanzeigen and AutoUncle at once
 
 Search mobile.de, AutoScout24, Kleinanzeigen and AutoUncle at once for used and new cars in Germany. One search, one dataset: merged, deduplicated across the sites, newest first. Filter by make, model, year, price, mileage, fuel, location. Optional full details and price history. JSON, CSV or Excel.
 
-Runs on Apify as the Actor [`carabain-digital/germany-cars`](https://apify.com/carabain-digital/germany-cars). The user needs an Apify account and an API token ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)); runs are billed to their account.
+Runs on Apify as the Actor [`carabain-digital/germany-cars`](https://apify.com/carabain-digital/germany-cars), billed per result to the user's own Apify account.
+
+## Setup
+
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 8,333 car listings with this Actor.
 
 ## Run it
 

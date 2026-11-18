@@ -7,7 +7,11 @@ description: "Search AutoScout24, Gocar and 2dehands at once for used and new ca
 
 Search AutoScout24, Gocar and 2dehands at once for used and new cars in Belgium. One search, one dataset: merged, deduplicated on VIN or make, year, mileage and price, newest first. Optional full details and price history. Residential proxy included. Export to JSON, CSV or Excel.
 
-Runs on Apify as the Actor [`carabain-digital/belgium-cars`](https://apify.com/carabain-digital/belgium-cars). The user needs an Apify account and an API token ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)); runs are billed to their account.
+Runs on Apify as the Actor [`carabain-digital/belgium-cars`](https://apify.com/carabain-digital/belgium-cars), billed per result to the user's own Apify account.
+
+## Setup
+
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 6,250 car listings with this Actor.
 
 ## Run it
 

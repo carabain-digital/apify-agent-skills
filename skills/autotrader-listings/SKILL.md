@@ -7,7 +7,11 @@ description: "Scrape car listings from Autotrader.com (USA): new, used and certi
 
 Scrape car listings from Autotrader.com (USA): new, used and certified cars from dealers and private sellers by ZIP code and radius. Filter by make, model, year, price, mileage, fuel, body. Price, VIN, KBB fair price, deal rating, dealer phone. Newest first.
 
-Runs on Apify as the Actor [`carabain-digital/autotrader-listings`](https://apify.com/carabain-digital/autotrader-listings). The user needs an Apify account and an API token ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)); runs are billed to their account.
+Runs on Apify as the Actor [`carabain-digital/autotrader-listings`](https://apify.com/carabain-digital/autotrader-listings), billed per result to the user's own Apify account.
+
+## Setup
+
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 5,000 car listings with this Actor.
 
 ## Run it
 
