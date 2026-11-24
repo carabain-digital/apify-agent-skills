@@ -7,11 +7,11 @@ description: "Scrape Dutch rental and sale listings from Pararius (pararius.nl a
 
 Scrape Dutch rental and sale listings from Pararius (pararius.nl and .com): price, address, living area, rooms, energy label, agent and photos. Filter by city, price, type, rooms and size, newest first. Optional full details and price history.
 
-Runs on Apify as the Actor [`carabain-digital/pararius-listings`](https://apify.com/carabain-digital/pararius-listings), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/pararius-listings`](https://apify.com/carabain-digital/pararius-listings?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 5,000 listings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 5,000 listings with this Actor.
 
 ## Run it
 
@@ -134,4 +134,4 @@ Pay per result: $1.00 per 1,000 listings on the Apify Free plan, less on paid pl
 - Full details: $3.00 per 1,000. One listing enriched with its detail page: full description, all photos, coordinates, date listed, bedrooms, bathrooms, plot area, energy label, build year and the agent phone number (sale listings).
 - Price history: $1.00 per 1,000. One listing that already had a history in your named store, annotated with previous price, price change and the price/status history.
 
-Store page, reviews and full documentation: [Pararius Listings Scraper](https://apify.com/carabain-digital/pararius-listings)
+Store page, reviews and full documentation: [Pararius Listings Scraper](https://apify.com/carabain-digital/pararius-listings?fpr=4ijnom)

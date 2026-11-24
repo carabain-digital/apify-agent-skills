@@ -7,11 +7,11 @@ description: "Scrape property listings from Huislijn.nl, the Dutch property port
 
 Scrape property listings from Huislijn.nl, the Dutch property portal fed by about 2,500 estate agents: price, address, coordinates, living and plot area, rooms, year built, status for sale and rent, newest first. Optional full details (description, agent) and price history.
 
-Runs on Apify as the Actor [`carabain-digital/huislijn-listings`](https://apify.com/carabain-digital/huislijn-listings), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/huislijn-listings`](https://apify.com/carabain-digital/huislijn-listings?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 10,000 listings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 10,000 listings with this Actor.
 
 ## Run it
 
@@ -139,4 +139,4 @@ Pay per result: $0.50 per 1,000 listings on the Apify Free plan, less on paid pl
 - Full details: $1.00 per 1,000. One listing enriched with its detail page: full description, estate agent (name, phone, page) and energy label.
 - Price history: $1.00 per 1,000. One listing that already had history in your store, annotated with previous price, price change, status change and a price history series. The first sighting of a listing is free.
 
-Store page, reviews and full documentation: [Huislijn Listings Scraper](https://apify.com/carabain-digital/huislijn-listings)
+Store page, reviews and full documentation: [Huislijn Listings Scraper](https://apify.com/carabain-digital/huislijn-listings?fpr=4ijnom)

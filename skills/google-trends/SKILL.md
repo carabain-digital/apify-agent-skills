@@ -7,11 +7,11 @@ description: "Google Trends data by search term or URL: interest over time, by c
 
 Google Trends data by search term or URL: interest over time, by country, region, city and metro, related queries, plus Trending now per country. Same output as Apify's Google Trends Scraper, with a residential IP per term so runs don't hit 429.
 
-Runs on Apify as the Actor [`carabain-digital/google-trends`](https://apify.com/carabain-digital/google-trends), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/google-trends`](https://apify.com/carabain-digital/google-trends?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 2,631 results with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 2,631 results with this Actor.
 
 ## Run it
 
@@ -122,4 +122,4 @@ One dataset item per result. Main fields: `searchTerm`, `geo`, `timeRange`, `int
 
 Pay per result: $1.90 per 1,000 results on the Apify Free plan, less on paid plans. No subscription; Apify bills the run to the user's account.
 
-Store page, reviews and full documentation: [Google Trends Scraper](https://apify.com/carabain-digital/google-trends)
+Store page, reviews and full documentation: [Google Trends Scraper](https://apify.com/carabain-digital/google-trends?fpr=4ijnom)

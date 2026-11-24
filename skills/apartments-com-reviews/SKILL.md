@@ -7,11 +7,11 @@ description: "Scrape all reviews of any apartment community on Apartments.com: r
 
 Scrape all reviews of any apartment community on Apartments.com: rating (1-5), text, date, reviewer and reply. Export to JSON, CSV or Excel.
 
-Runs on Apify as the Actor [`carabain-digital/apartments-com-reviews`](https://apify.com/carabain-digital/apartments-com-reviews), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/apartments-com-reviews`](https://apify.com/carabain-digital/apartments-com-reviews?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 1,666 reviews with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 1,666 reviews with this Actor.
 
 ## Run it
 
@@ -86,4 +86,4 @@ One dataset item per result. Main fields: `published_at`, `rating`, `author`, `t
 Pay per result: $3.00 per 1,000 reviews on the Apify Free plan, less on paid plans, plus $0.025 per run start per GB of memory. No subscription; Apify bills the run to the user's account.
 - AI review analysis: $3.00 per 1,000. Sentiment, a score from -1 to 1, topics and a one-line summary for each review with text.
 
-Store page, reviews and full documentation: [Apartments.com Reviews Scraper](https://apify.com/carabain-digital/apartments-com-reviews)
+Store page, reviews and full documentation: [Apartments.com Reviews Scraper](https://apify.com/carabain-digital/apartments-com-reviews?fpr=4ijnom)

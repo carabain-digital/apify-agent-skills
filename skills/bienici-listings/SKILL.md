@@ -7,11 +7,11 @@ description: "Scrape property listings from Bien'ici (bienici.com), the French r
 
 Scrape property listings from Bien'ici (bienici.com), the French real-estate portal: apartments, houses, land, parking and commercial property for sale and for rent. Filter by city, price, rooms and area. Newest first, with DPE label. Add-on: agency contact with phone.
 
-Runs on Apify as the Actor [`carabain-digital/bienici-listings`](https://apify.com/carabain-digital/bienici-listings), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/bienici-listings`](https://apify.com/carabain-digital/bienici-listings?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 2,631 listings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 2,631 listings with this Actor.
 
 ## Run it
 
@@ -138,4 +138,4 @@ Pay per result: $1.90 per 1,000 listings on the Apify Free plan, less on paid pl
 - Full details: $1.00 per 1,000. One listing enriched with its contact block: agency name, phone number and website.
 - Price history: $1.00 per 1,000. One listing that already had history in your named history store, enriched with first_seen_at, previous_price, price_change, price_change_pct, status_changed and price_history. The first run of a listing is free.
 
-Store page, reviews and full documentation: [Bien'ici Scraper - French Property Listings](https://apify.com/carabain-digital/bienici-listings)
+Store page, reviews and full documentation: [Bien'ici Scraper - French Property Listings](https://apify.com/carabain-digital/bienici-listings?fpr=4ijnom)

@@ -7,11 +7,11 @@ description: "Scrape private-seller property listings from PAP (pap.fr, De Parti
 
 Scrape private-seller property listings from PAP (pap.fr, De Particulier à Particulier): apartments, houses, land and parking for sale and for rent, no agencies. Filter by city, price, rooms and area. Price, DPE, photos. Add-on: full description, street and publication date.
 
-Runs on Apify as the Actor [`carabain-digital/pap-listings`](https://apify.com/carabain-digital/pap-listings), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/pap-listings`](https://apify.com/carabain-digital/pap-listings?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 4,545 listings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 4,545 listings with this Actor.
 
 ## Run it
 
@@ -137,4 +137,4 @@ Pay per result: $1.10 per 1,000 listings on the Apify Free plan, less on paid pl
 - Full details: $2.00 per 1,000. One listing enriched with its page: full description, all photos in full size, street, publication date and plot area.
 - Price history: $1.00 per 1,000. One listing that already had history in your named history store, enriched with first_seen_at, previous_price, price_change, price_change_pct, status_changed and price_history. The first run of a listing is free.
 
-Store page, reviews and full documentation: [PAP.fr Scraper - French Private-Seller Listings](https://apify.com/carabain-digital/pap-listings)
+Store page, reviews and full documentation: [PAP.fr Scraper - French Private-Seller Listings](https://apify.com/carabain-digital/pap-listings?fpr=4ijnom)

@@ -7,11 +7,11 @@ description: "Scrape job postings from Welcome to the Jungle (welcometothejungle
 
 Scrape job postings from Welcome to the Jungle (welcometothejungle.com) in France: title, company, city, contract (CDI, alternance, stage), salary, remote policy and description. Filter by keyword, city, radius, contract and date. Fast, no proxy needed.
 
-Runs on Apify as the Actor [`carabain-digital/welcometothejungle-jobs`](https://apify.com/carabain-digital/welcometothejungle-jobs), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/welcometothejungle-jobs`](https://apify.com/carabain-digital/welcometothejungle-jobs?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 17,857 job postings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 17,857 job postings with this Actor.
 
 ## Run it
 
@@ -130,4 +130,4 @@ One dataset item per result. Main fields: `posted_at`, `title`, `company`, `city
 Pay per result: $0.28 per 1,000 job postings on the Apify Free plan, less on paid plans. No subscription; Apify bills the run to the user's account.
 - Full details: $1.00 per 1,000. One job enriched with its detail page: the full job description and profile (plain text), the apply link of the employer's application system, company website, postcode, coordinates, skills, tools and start date.
 
-Store page, reviews and full documentation: [Welcome to the Jungle Jobs Scraper](https://apify.com/carabain-digital/welcometothejungle-jobs)
+Store page, reviews and full documentation: [Welcome to the Jungle Jobs Scraper](https://apify.com/carabain-digital/welcometothejungle-jobs?fpr=4ijnom)

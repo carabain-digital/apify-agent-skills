@@ -7,11 +7,11 @@ description: "Scrape concert and tour dates from Bandsintown (bandsintown.com): 
 
 Scrape concert and tour dates from Bandsintown (bandsintown.com): paste artist pages or type artist names and get every upcoming event with date, time, venue, city, country, coordinates, ticket link and status. Add-on: street address, full lineup and ticket sellers.
 
-Runs on Apify as the Actor [`carabain-digital/bandsintown-events`](https://apify.com/carabain-digital/bandsintown-events), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/bandsintown-events`](https://apify.com/carabain-digital/bandsintown-events?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 1,666 events with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 1,666 events with this Actor.
 
 ## Run it
 
@@ -116,4 +116,4 @@ One dataset item per result. Main fields: `starts_at`, `artist`, `venue`, `city`
 Pay per result: $3.00 per 1,000 events on the Apify Free plan, less on paid plans. No subscription; Apify bills the run to the user's account.
 - Full details: $1.00 per 1,000. One event enriched from its event page: street address, postcode, venue link, full lineup, free-admission flag and ticket sellers.
 
-Store page, reviews and full documentation: [Bandsintown Events Scraper](https://apify.com/carabain-digital/bandsintown-events)
+Store page, reviews and full documentation: [Bandsintown Events Scraper](https://apify.com/carabain-digital/bandsintown-events?fpr=4ijnom)

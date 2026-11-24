@@ -7,11 +7,11 @@ description: "Scrape job postings from the German Arbeitsagentur Jobbörse (Bund
 
 Scrape job postings from the German Arbeitsagentur Jobbörse (Bundesagentur für Arbeit): title, employer, location with coordinates, salary, contract type and full description. Filter by keyword, city, radius and date. Fast, no proxy needed.
 
-Runs on Apify as the Actor [`carabain-digital/arbeitsagentur-jobs`](https://apify.com/carabain-digital/arbeitsagentur-jobs), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/arbeitsagentur-jobs`](https://apify.com/carabain-digital/arbeitsagentur-jobs?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 8,333 job postings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 8,333 job postings with this Actor.
 
 ## Run it
 
@@ -121,4 +121,4 @@ One dataset item per result. Main fields: `posted_at`, `title`, `company`, `city
 Pay per result: $0.60 per 1,000 job postings on the Apify Free plan, less on paid plans. No subscription; Apify bills the run to the user's account.
 - Full details: $1.00 per 1,000. One job enriched with its detail page: the full job description (plain text), the apply link when the job is posted by an external employer site, and whether the poster is a recruiter or a direct employer.
 
-Store page, reviews and full documentation: [Arbeitsagentur Jobs Scraper](https://apify.com/carabain-digital/arbeitsagentur-jobs)
+Store page, reviews and full documentation: [Arbeitsagentur Jobs Scraper](https://apify.com/carabain-digital/arbeitsagentur-jobs?fpr=4ijnom)

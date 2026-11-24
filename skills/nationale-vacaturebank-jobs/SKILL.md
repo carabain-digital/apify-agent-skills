@@ -7,11 +7,11 @@ description: "Scrape job postings from Nationale Vacaturebank (nationalevacature
 
 Scrape job postings from Nationale Vacaturebank (nationalevacaturebank.nl), the largest Dutch job board: title, company, location with coordinates, salary, hours, contract, education, full description and apply link. Filter by keyword, place, radius and date.
 
-Runs on Apify as the Actor [`carabain-digital/nationale-vacaturebank-jobs`](https://apify.com/carabain-digital/nationale-vacaturebank-jobs), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/nationale-vacaturebank-jobs`](https://apify.com/carabain-digital/nationale-vacaturebank-jobs?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 10,000 job postings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 10,000 job postings with this Actor.
 
 ## Run it
 
@@ -109,4 +109,4 @@ One dataset item per result. Main fields: `posted_at`, `title`, `company`, `loca
 
 Pay per result: $0.50 per 1,000 job postings on the Apify Free plan, less on paid plans. No subscription; Apify bills the run to the user's account.
 
-Store page, reviews and full documentation: [Nationale Vacaturebank Jobs Scraper](https://apify.com/carabain-digital/nationale-vacaturebank-jobs)
+Store page, reviews and full documentation: [Nationale Vacaturebank Jobs Scraper](https://apify.com/carabain-digital/nationale-vacaturebank-jobs?fpr=4ijnom)

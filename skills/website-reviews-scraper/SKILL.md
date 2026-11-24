@@ -7,11 +7,11 @@ description: "Scrape the reviews shown on any webshop or business website: Judge
 
 Scrape the reviews shown on any webshop or business website: Judge.me, Yotpo, Reviews.io, Okendo, Stamped, Feefo, eKomi, Trusted Shops, ProvenExpert, Feedback Company, Bazaarvoice, PowerReviews and Loox. Paste a URL, get every review.
 
-Runs on Apify as the Actor [`carabain-digital/website-reviews-scraper`](https://apify.com/carabain-digital/website-reviews-scraper), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/website-reviews-scraper`](https://apify.com/carabain-digital/website-reviews-scraper?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 5,000 reviews with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 5,000 reviews with this Actor.
 
 ## Run it
 
@@ -91,4 +91,4 @@ One dataset item per result. Main fields: `published_at`, `rating`, `platform`, 
 Pay per result: $1.00 per 1,000 reviews on the Apify Free plan, less on paid plans. No subscription; Apify bills the run to the user's account.
 - AI review analysis: $3.00 per 1,000. Sentiment, a score from -1 to 1, topics and a one-line summary for each review with text.
 
-Store page, reviews and full documentation: [Website Reviews Scraper](https://apify.com/carabain-digital/website-reviews-scraper)
+Store page, reviews and full documentation: [Website Reviews Scraper](https://apify.com/carabain-digital/website-reviews-scraper?fpr=4ijnom)

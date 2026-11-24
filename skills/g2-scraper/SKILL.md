@@ -7,11 +7,11 @@ description: "Scrape G2 (g2.com) software products per category: name, vendor, r
 
 Scrape G2 (g2.com) software products per category: name, vendor, rating, review count, pros and cons, prices. Add-ons: website, description, pricing plans, languages, and user reviews.
 
-Runs on Apify as the Actor [`carabain-digital/g2-scraper`](https://apify.com/carabain-digital/g2-scraper), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/g2-scraper`](https://apify.com/carabain-digital/g2-scraper?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 2,000 products with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 2,000 products with this Actor.
 
 ## Run it
 
@@ -123,4 +123,4 @@ Pay per result: $2.50 per 1,000 products on the Apify Free plan, less on paid pl
 - Details (website, pricing plans): $2.00 per 1,000. One product enriched from its G2 page: website, description, all categories, pricing plans with prices, languages, solution type.
 - User review: $2.00 per 1,000. One G2 user review of a product: rating, title, full text, date, author and the vendor's reply.
 
-Store page, reviews and full documentation: [G2 Scraper - Software Products, Ratings, Reviews](https://apify.com/carabain-digital/g2-scraper)
+Store page, reviews and full documentation: [G2 Scraper - Software Products, Ratings, Reviews](https://apify.com/carabain-digital/g2-scraper?fpr=4ijnom)

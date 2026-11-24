@@ -7,11 +7,11 @@ description: "Scrape used-car listings from Gaspedaal.nl, the Dutch car aggregat
 
 Scrape used-car listings from Gaspedaal.nl, the Dutch car aggregator: make, model, price, mileage, year, fuel, gearbox, power, city and the source site (AutoTrack, AutoScout24, dealer). Filter by make, price, year, km, postcode. Newest first. Add-ons: dealer details, price history.
 
-Runs on Apify as the Actor [`carabain-digital/gaspedaal-listings`](https://apify.com/carabain-digital/gaspedaal-listings), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/gaspedaal-listings`](https://apify.com/carabain-digital/gaspedaal-listings?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 3,571 car listings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 3,571 car listings with this Actor.
 
 ## Run it
 
@@ -155,4 +155,4 @@ Pay per result: $1.40 per 1,000 car listings on the Apify Free plan, less on pai
 - Full details: $1.00 per 1,000. One car enriched from its source listing (AutoTrack, AutoScout24, dealer site): direct source URLs, description, all photos, licence plate, seats, first registration month, equipment, dealer name, phone, address and coordinates. Cars no source page enriched are not charged.
 - Price history: $1.00 per 1,000. One car that already had history in your named history store, enriched with first_seen_at, previous_price, price_change, price_change_pct, status_changed and price_history. The first run of a car is free.
 
-Store page, reviews and full documentation: [Gaspedaal Car Listings Scraper](https://apify.com/carabain-digital/gaspedaal-listings)
+Store page, reviews and full documentation: [Gaspedaal Car Listings Scraper](https://apify.com/carabain-digital/gaspedaal-listings?fpr=4ijnom)

@@ -7,11 +7,11 @@ description: "Dividend history and splits per ISIN for European and UK shares: e
 
 Dividend history and splits per ISIN for European and UK shares: ex-date, pay date, declaration date, type, status and the declared amount and currency, merged from Yahoo Finance, Dividendmax and Borsa Italiana. Built for portfolio trackers.
 
-Runs on Apify as the Actor [`carabain-digital/eu-dividends`](https://apify.com/carabain-digital/eu-dividends), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/eu-dividends`](https://apify.com/carabain-digital/eu-dividends?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 5,000 dividend or splits with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 5,000 dividend or splits with this Actor.
 
 ## Run it
 
@@ -120,4 +120,4 @@ One dataset item per result. Main fields: `isin`, `name`, `event`, `status`, `di
 
 Pay per result: $1.00 per 1,000 dividend or splits on the Apify Free plan, less on paid plans. No subscription; Apify bills the run to the user's account.
 
-Store page, reviews and full documentation: [EU Dividends & Splits by ISIN](https://apify.com/carabain-digital/eu-dividends)
+Store page, reviews and full documentation: [EU Dividends & Splits by ISIN](https://apify.com/carabain-digital/eu-dividends?fpr=4ijnom)

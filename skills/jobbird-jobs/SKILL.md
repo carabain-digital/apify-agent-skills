@@ -7,11 +7,11 @@ description: "Scrape job postings from Jobbird.com (Netherlands): title, company
 
 Scrape job postings from Jobbird.com (Netherlands): title, company, city, posting date, salary, hours and education from the search results. Optional full details: description, apply link, employment type. Filter by keyword, location, radius and age. No proxy needed. Export to JSON, CSV or Excel.
 
-Runs on Apify as the Actor [`carabain-digital/jobbird-jobs`](https://apify.com/carabain-digital/jobbird-jobs), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/jobbird-jobs`](https://apify.com/carabain-digital/jobbird-jobs?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 10,000 job postings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 10,000 job postings with this Actor.
 
 ## Run it
 
@@ -109,4 +109,4 @@ One dataset item per result. Main fields: `posted_at`, `title`, `company`, `city
 Pay per result: $0.50 per 1,000 job postings on the Apify Free plan, less on paid plans. No subscription; Apify bills the run to the user's account.
 - Full details: $1.00 per 1,000. Opens each job's detail page: full description (plain text), original posting date, apply link, region and salary range when stated.
 
-Store page, reviews and full documentation: [Jobbird Jobs Scraper](https://apify.com/carabain-digital/jobbird-jobs)
+Store page, reviews and full documentation: [Jobbird Jobs Scraper](https://apify.com/carabain-digital/jobbird-jobs?fpr=4ijnom)

@@ -7,11 +7,11 @@ description: "Scrape real-estate listings from Immoweb (immoweb.be), Belgium's b
 
 Scrape real-estate listings from Immoweb (immoweb.be), Belgium's biggest property portal: houses, apartments, land and commercial property for sale and for rent. Filter by city, postcode or province, price, bedrooms, area and type. Newest first, with old price. Add-on: full details with agent phone.
 
-Runs on Apify as the Actor [`carabain-digital/immoweb-listings`](https://apify.com/carabain-digital/immoweb-listings), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/immoweb-listings`](https://apify.com/carabain-digital/immoweb-listings?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 5,882 listings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 5,882 listings with this Actor.
 
 ## Run it
 
@@ -138,4 +138,4 @@ Pay per result: $0.85 per 1,000 listings on the Apify Free plan, less on paid pl
 - Full details: $2.00 per 1,000. One listing enriched with its detail page: full description, construction year, bathrooms, publication date, agent phone and website, all photos and the exact status.
 - Price history: $1.00 per 1,000. One listing that already had history in your named history store, enriched with first_seen_at, previous_price, price_change, price_change_pct, status_changed and price_history. The first run of a listing is free.
 
-Store page, reviews and full documentation: [Immoweb Scraper - Belgian Property Listings](https://apify.com/carabain-digital/immoweb-listings)
+Store page, reviews and full documentation: [Immoweb Scraper - Belgian Property Listings](https://apify.com/carabain-digital/immoweb-listings?fpr=4ijnom)

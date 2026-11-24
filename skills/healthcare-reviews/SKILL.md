@@ -7,11 +7,11 @@ description: "Scrape doctor reviews from Zocdoc, Healthgrades, Vitals and WebMD 
 
 Scrape doctor reviews from Zocdoc, Healthgrades, Vitals and WebMD in one run. Paste your links in any mix: each one is detected and scraped. One dataset with rating (1-5), text, date, reply and source.
 
-Runs on Apify as the Actor [`carabain-digital/healthcare-reviews`](https://apify.com/carabain-digital/healthcare-reviews), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/healthcare-reviews`](https://apify.com/carabain-digital/healthcare-reviews?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 2,976 reviews with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 2,976 reviews with this Actor.
 
 ## Run it
 
@@ -114,4 +114,4 @@ Pay per result: from $1.68 per 1,000 reviews on the Apify Free plan, less on pai
 - WebMD review: $2.40 per 1,000.
 - AI review analysis: $3.00 per 1,000. Sentiment, a score from -1 to 1, topics and a one-line summary for each review with text.
 
-Store page, reviews and full documentation: [Healthcare Reviews Scraper](https://apify.com/carabain-digital/healthcare-reviews)
+Store page, reviews and full documentation: [Healthcare Reviews Scraper](https://apify.com/carabain-digital/healthcare-reviews?fpr=4ijnom)

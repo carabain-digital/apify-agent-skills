@@ -7,11 +7,11 @@ description: "Scrape car listings from Gocar.be, the Belgian car marketplace (NL
 
 Scrape car listings from Gocar.be, the Belgian car marketplace (NL/FR): used, new, leasing, vans and classic cars. Filter by make, model, year, price, mileage, fuel, gearbox, body, seller and postcode radius. Newest first. Add-ons: full details with Car-Pass link, price history.
 
-Runs on Apify as the Actor [`carabain-digital/gocar-listings`](https://apify.com/carabain-digital/gocar-listings), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/gocar-listings`](https://apify.com/carabain-digital/gocar-listings?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 10,000 car listings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 10,000 car listings with this Actor.
 
 ## Run it
 
@@ -171,4 +171,4 @@ Pay per result: $0.50 per 1,000 car listings on the Apify Free plan, less on pai
 - Full details: $1.00 per 1,000. One listing enriched with its listing page: all photos, full description, engine size, cylinders, gears, interior, inspection date, exact registration date, Car-Pass mileage history link, dealer showroom page, website and phone.
 - Price history: $1.00 per 1,000. One listing that already had history in your named history store, enriched with first_seen_at, previous_price, price_change, price_change_pct and price_history. The first run of a listing is free.
 
-Store page, reviews and full documentation: [Gocar.be Car Listings Scraper](https://apify.com/carabain-digital/gocar-listings)
+Store page, reviews and full documentation: [Gocar.be Car Listings Scraper](https://apify.com/carabain-digital/gocar-listings?fpr=4ijnom)

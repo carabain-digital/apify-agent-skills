@@ -7,11 +7,11 @@ description: "Scrape used and new car listings from CarGurus (cargurus.com), the
 
 Scrape used and new car listings from CarGurus (cargurus.com), the biggest US car marketplace: price, CarGurus deal rating and Instant Market Value, mileage, VIN, specs and dealer phone. Search by ZIP, make, model, year, price, mileage. Newest first. Add-ons: full details, price history.
 
-Runs on Apify as the Actor [`carabain-digital/cargurus-listings`](https://apify.com/carabain-digital/cargurus-listings), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/cargurus-listings`](https://apify.com/carabain-digital/cargurus-listings?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 6,666 car listings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 6,666 car listings with this Actor.
 
 ## Run it
 
@@ -177,4 +177,4 @@ Pay per result: $0.75 per 1,000 car listings on the Apify Free plan, less on pai
 - Full details: $1.00 per 1,000. One listing enriched with its detail page: dealer description, all photos, full equipment list, accident and owner count, dealer fees and price before fees, dealer street address, coordinates, website and rating.
 - Price history: $1.00 per 1,000. One listing that already had history in your named history store, enriched with first_seen_at, previous_price, price_change, price_change_pct and price_history. The first run of a listing is free.
 
-Store page, reviews and full documentation: [CarGurus Car Listings Scraper](https://apify.com/carabain-digital/cargurus-listings)
+Store page, reviews and full documentation: [CarGurus Car Listings Scraper](https://apify.com/carabain-digital/cargurus-listings?fpr=4ijnom)

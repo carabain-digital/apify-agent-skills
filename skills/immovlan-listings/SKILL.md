@@ -7,11 +7,11 @@ description: "Scrape property listings from Immovlan.be, the Belgian real-estate
 
 Scrape property listings from Immovlan.be, the Belgian real-estate portal: price, type, city, EPC label, price-update flag and status for sale and rent. Optional full details (street, coordinates, area, bedrooms, description, agent) and price history. No proxy needed.
 
-Runs on Apify as the Actor [`carabain-digital/immovlan-listings`](https://apify.com/carabain-digital/immovlan-listings), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/immovlan-listings`](https://apify.com/carabain-digital/immovlan-listings?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 10,000 listings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 10,000 listings with this Actor.
 
 ## Run it
 
@@ -139,4 +139,4 @@ Pay per result: $0.50 per 1,000 listings on the Apify Free plan, less on paid pl
 - Full details: $1.00 per 1,000. One listing enriched with its detail page: street, coordinates, living and plot area, bedrooms, bathrooms, description, listing date, photos and agent.
 - Price history: $1.00 per 1,000. One listing that already had history in your store, annotated with previous price, price change, status change and a price history series. The first sighting of a listing is free.
 
-Store page, reviews and full documentation: [Immovlan Listings Scraper](https://apify.com/carabain-digital/immovlan-listings)
+Store page, reviews and full documentation: [Immovlan Listings Scraper](https://apify.com/carabain-digital/immovlan-listings?fpr=4ijnom)

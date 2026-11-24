@@ -7,11 +7,11 @@ description: "Scrape job postings from VDAB, the Flemish employment service and 
 
 Scrape job postings from VDAB, the Flemish employment service and Belgium's largest job board: title, employer, municipality, contract type, experience and full description. Filter by keyword, location, radius and date. Fast, no proxy needed.
 
-Runs on Apify as the Actor [`carabain-digital/vdab-jobs`](https://apify.com/carabain-digital/vdab-jobs), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/vdab-jobs`](https://apify.com/carabain-digital/vdab-jobs?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 5,263 job postings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 5,263 job postings with this Actor.
 
 ## Run it
 
@@ -119,4 +119,4 @@ One dataset item per result. Main fields: `posted_at`, `title`, `company`, `city
 Pay per result: $0.95 per 1,000 job postings on the Apify Free plan, less on paid plans. No subscription; Apify bills the run to the user's account.
 - Full details: $1.00 per 1,000. One job enriched with its detail page: the full job description (plain text, including profile and offer), postcode, region, required education, the apply link and the Belgian company number.
 
-Store page, reviews and full documentation: [VDAB Jobs Scraper](https://apify.com/carabain-digital/vdab-jobs)
+Store page, reviews and full documentation: [VDAB Jobs Scraper](https://apify.com/carabain-digital/vdab-jobs?fpr=4ijnom)

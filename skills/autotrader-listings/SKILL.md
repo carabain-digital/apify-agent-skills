@@ -7,11 +7,11 @@ description: "Scrape car listings from Autotrader.com (USA): new, used and certi
 
 Scrape car listings from Autotrader.com (USA): new, used and certified cars from dealers and private sellers by ZIP code and radius. Filter by make, model, year, price, mileage, fuel, body. Price, VIN, KBB fair price, deal rating, dealer phone. Newest first.
 
-Runs on Apify as the Actor [`carabain-digital/autotrader-listings`](https://apify.com/carabain-digital/autotrader-listings), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/autotrader-listings`](https://apify.com/carabain-digital/autotrader-listings?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 5,000 car listings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 5,000 car listings with this Actor.
 
 ## Run it
 
@@ -180,4 +180,4 @@ Pay per result: $1.00 per 1,000 car listings on the Apify Free plan, less on pai
 - Full details: $1.00 per 1,000. One car listing enriched with its Autotrader page: the dealer's full description, every photo, equipment by category, highlighted features, option packages, original warranties, open safety recalls, walk-around videos, all dealer phone numbers and opening hours.
 - Price history: $1.00 per 1,000. One car listing that already had history in your named history store, enriched with first_seen_at, previous_price, price_change, price_change_pct, status_changed and price_history. The first run of a listing is free.
 
-Store page, reviews and full documentation: [Autotrader Car Listings Scraper](https://apify.com/carabain-digital/autotrader-listings)
+Store page, reviews and full documentation: [Autotrader Car Listings Scraper](https://apify.com/carabain-digital/autotrader-listings?fpr=4ijnom)

@@ -7,11 +7,11 @@ description: "Scrape Capterra (capterra.com) software products per category: nam
 
 Scrape Capterra (capterra.com) software products per category: name, vendor, ratings, review counts, features. Add-ons: pricing plans, AI pros and cons, integrations, alternatives, and user reviews.
 
-Runs on Apify as the Actor [`carabain-digital/capterra-scraper`](https://apify.com/carabain-digital/capterra-scraper), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/capterra-scraper`](https://apify.com/carabain-digital/capterra-scraper?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 2,000 products with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 2,000 products with this Actor.
 
 ## Run it
 
@@ -142,4 +142,4 @@ Pay per result: $2.50 per 1,000 products on the Apify Free plan, less on paid pl
 - Details (pricing plans, pros and cons): $2.00 per 1,000. One product enriched from its Capterra page: pricing plans, deployment and support, AI pros and cons, reviewer profile, categories, integrations, alternatives.
 - User review: $1.00 per 1,000. One Capterra user review of a product: ratings, title, text, pros, cons, date, reviewer and the vendor's reply.
 
-Store page, reviews and full documentation: [Capterra Scraper - Software, Pricing, Reviews](https://apify.com/carabain-digital/capterra-scraper)
+Store page, reviews and full documentation: [Capterra Scraper - Software, Pricing, Reviews](https://apify.com/carabain-digital/capterra-scraper?fpr=4ijnom)

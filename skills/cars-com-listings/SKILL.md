@@ -7,11 +7,11 @@ description: "Scrape new and used car listings from Cars.com, a top US car marke
 
 Scrape new and used car listings from Cars.com, a top US car marketplace: price, mileage, year, VIN, deal rating, dealer or private seller, city and photos. Filter by make, model, year, price, mileage, fuel and ZIP radius. Add-ons: full details, price history.
 
-Runs on Apify as the Actor [`carabain-digital/cars-com-listings`](https://apify.com/carabain-digital/cars-com-listings), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/cars-com-listings`](https://apify.com/carabain-digital/cars-com-listings?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 5,000 car listings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 5,000 car listings with this Actor.
 
 ## Run it
 
@@ -173,4 +173,4 @@ Pay per result: $1.00 per 1,000 car listings on the Apify Free plan, less on pai
 - Full details: $3.00 per 1,000. One car listing enriched with its cars.com listing page: seller's notes, all photos, transmission, engine, horsepower, MPG, interior colour, features by category, stock number, listing date and price changes on the site, dealer address, website and cars.com page, title/accident/owner flags.
 - Price history: $1.00 per 1,000. One car listing that already had history in your named history store, enriched with first_seen_at, previous_price, price_change, price_change_pct, status_changed and price_history. The first run of a listing is free.
 
-Store page, reviews and full documentation: [Cars.com Car Listings Scraper](https://apify.com/carabain-digital/cars-com-listings)
+Store page, reviews and full documentation: [Cars.com Car Listings Scraper](https://apify.com/carabain-digital/cars-com-listings?fpr=4ijnom)

@@ -7,11 +7,11 @@ description: "Scrape car listings from AutoScout24, Europe's biggest car marketp
 
 Scrape car listings from AutoScout24, Europe's biggest car marketplace: Germany, Netherlands, Belgium, Austria, Italy, France, Spain, Luxembourg. Filter by make, model, year, price, mileage, fuel. Price rating, dealer phone. Add-ons: full details with market price, price history.
 
-Runs on Apify as the Actor [`carabain-digital/autoscout24-listings`](https://apify.com/carabain-digital/autoscout24-listings), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/autoscout24-listings`](https://apify.com/carabain-digital/autoscout24-listings?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 17,857 car listings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 17,857 car listings with this Actor.
 
 ## Run it
 
@@ -172,4 +172,4 @@ Pay per result: $0.28 per 1,000 car listings on the Apify Free plan, less on pai
 - Full details: $0.95 per 1,000. One car listing enriched with its listing page: description, equipment, body type, colour, doors, seats, engine size, gears, previous owners, accident and service history, warranty, coordinates, listing date, views and favourites, net price and AutoScout24's market price median and rating bands.
 - Price history: $1.00 per 1,000. One car listing that already had history in your named history store, enriched with first_seen_at, previous_price, price_change, price_change_pct, status_changed and price_history. The first run of a listing is free.
 
-Store page, reviews and full documentation: [AutoScout24 Car Listings Scraper](https://apify.com/carabain-digital/autoscout24-listings)
+Store page, reviews and full documentation: [AutoScout24 Car Listings Scraper](https://apify.com/carabain-digital/autoscout24-listings?fpr=4ijnom)

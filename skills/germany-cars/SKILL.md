@@ -7,11 +7,11 @@ description: "Search mobile.de, AutoScout24, Kleinanzeigen and AutoUncle at once
 
 Search mobile.de, AutoScout24, Kleinanzeigen and AutoUncle at once for used and new cars in Germany. One search, one dataset: merged, deduplicated across the sites, newest first. Filter by make, model, year, price, mileage, fuel, location. Optional full details and price history. JSON, CSV or Excel.
 
-Runs on Apify as the Actor [`carabain-digital/germany-cars`](https://apify.com/carabain-digital/germany-cars), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/germany-cars`](https://apify.com/carabain-digital/germany-cars?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 8,333 car listings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 8,333 car listings with this Actor.
 
 ## Run it
 
@@ -225,4 +225,4 @@ Pay per result: $0.60 per 1,000 car listings on the Apify Free plan, less on pai
 - Full details: $0.95 per 1,000. One car listing enriched from its page on mobile.de, AutoScout24, Kleinanzeigen or AutoUncle: description, equipment, colour, doors, seats, previous owners, coordinates, listing date, all photos and seller phones, plus each site's extras (mobile.de attributes, market price, HU date).
 - Price history: $1.00 per 1,000. One car listing that already had history in your named history store, enriched with first_seen_at, previous_price, price_change, price_change_pct, status_changed and price_history. The first run of a listing is free.
 
-Store page, reviews and full documentation: [Germany Cars Scraper](https://apify.com/carabain-digital/germany-cars)
+Store page, reviews and full documentation: [Germany Cars Scraper](https://apify.com/carabain-digital/germany-cars?fpr=4ijnom)

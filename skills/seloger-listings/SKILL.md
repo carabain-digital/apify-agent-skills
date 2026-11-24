@@ -7,11 +7,11 @@ description: "Scrape real-estate listings from SeLoger (seloger.com), France's b
 
 Scrape real-estate listings from SeLoger (seloger.com), France's biggest property portal: appartements, maisons, terrains and commercial property for sale and for rent. Filter by city, department or postcode, price, rooms and area. Newest first, with agent phone. Add-on: full details and DPE data.
 
-Runs on Apify as the Actor [`carabain-digital/seloger-listings`](https://apify.com/carabain-digital/seloger-listings), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/seloger-listings`](https://apify.com/carabain-digital/seloger-listings?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 5,882 listings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 5,882 listings with this Actor.
 
 ## Run it
 
@@ -150,4 +150,4 @@ Pay per result: $0.85 per 1,000 listings on the Apify Free plan, less on paid pl
 - Full details: $1.00 per 1,000. One listing enriched with its detail page: full description, coordinates (when the exact address is public), rent without charges, monthly charges, deposit, construction year, heating, DPE and GES values, amenities and all photos.
 - Price history: $1.00 per 1,000. One listing that already had history in your named history store, enriched with first_seen_at, previous_price, price_change, price_change_pct, status_changed and price_history. The first run of a listing is free.
 
-Store page, reviews and full documentation: [SeLoger Scraper - French Property Listings](https://apify.com/carabain-digital/seloger-listings)
+Store page, reviews and full documentation: [SeLoger Scraper - French Property Listings](https://apify.com/carabain-digital/seloger-listings?fpr=4ijnom)

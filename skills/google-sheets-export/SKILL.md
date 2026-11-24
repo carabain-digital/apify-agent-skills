@@ -7,11 +7,11 @@ description: "Export any Apify dataset to a Google Sheet: replace the tab, appen
 
 Export any Apify dataset to a Google Sheet: replace the tab, append rows, or append only new items by a key field. Works as an integration after any Actor run, on a schedule or through the API.
 
-Runs on Apify as the Actor [`carabain-digital/google-sheets-export`](https://apify.com/carabain-digital/google-sheets-export), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/google-sheets-export`](https://apify.com/carabain-digital/google-sheets-export?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 16,666 exported rows with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 16,666 exported rows with this Actor.
 
 ## Run it
 
@@ -91,4 +91,4 @@ One dataset item per result. Main fields: `sheet`, `row`, `exportedAt`.
 
 Pay per result: $0.30 per 1,000 exported rows on the Apify Free plan, less on paid plans. No subscription; Apify bills the run to the user's account.
 
-Store page, reviews and full documentation: [Google Sheets Export - Any Dataset to Sheets](https://apify.com/carabain-digital/google-sheets-export)
+Store page, reviews and full documentation: [Google Sheets Export - Any Dataset to Sheets](https://apify.com/carabain-digital/google-sheets-export?fpr=4ijnom)

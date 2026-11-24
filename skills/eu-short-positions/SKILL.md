@@ -7,11 +7,11 @@ description: "Disclosed net short positions in European and UK shares from nine 
 
 Disclosed net short positions in European and UK shares from nine regulators (AFM, AMF, FCA, BaFin, CONSOB, FI, Finanstilsynet NO/DK, FSMA): holder, issuer, ISIN, net short %, position date. Current positions or the full history.
 
-Runs on Apify as the Actor [`carabain-digital/eu-short-positions`](https://apify.com/carabain-digital/eu-short-positions), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/eu-short-positions`](https://apify.com/carabain-digital/eu-short-positions?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 2,500 short positions with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 2,500 short positions with this Actor.
 
 ## Run it
 
@@ -101,4 +101,4 @@ One dataset item per result. Main fields: `country`, `status`, `isin`, `issuer`,
 
 Pay per result: $2.00 per 1,000 short positions on the Apify Free plan, less on paid plans. No subscription; Apify bills the run to the user's account.
 
-Store page, reviews and full documentation: [EU Short Positions Register](https://apify.com/carabain-digital/eu-short-positions)
+Store page, reviews and full documentation: [EU Short Positions Register](https://apify.com/carabain-digital/eu-short-positions?fpr=4ijnom)

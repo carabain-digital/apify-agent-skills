@@ -7,11 +7,11 @@ description: "Scrape job postings from StepStone.de (Germany): title, company, l
 
 Scrape job postings from StepStone.de (Germany): title, company, location, posting date, valid-through, home-office flag and company page. Optional full details: description and employment type. Filter by keyword, location, radius and age. German residential proxy. Export to JSON, CSV or Excel.
 
-Runs on Apify as the Actor [`carabain-digital/stepstone-jobs`](https://apify.com/carabain-digital/stepstone-jobs), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/stepstone-jobs`](https://apify.com/carabain-digital/stepstone-jobs?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 5,263 job postings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 5,263 job postings with this Actor.
 
 ## Run it
 
@@ -110,4 +110,4 @@ One dataset item per result. Main fields: `posted_at`, `title`, `company`, `city
 Pay per result: $0.95 per 1,000 job postings on the Apify Free plan, less on paid plans. No subscription; Apify bills the run to the user's account.
 - Full details: $2.00 per 1,000. Opens each job's detail page: full description (plain text), employment type, exact posting and valid-through dates.
 
-Store page, reviews and full documentation: [StepStone Jobs Scraper](https://apify.com/carabain-digital/stepstone-jobs)
+Store page, reviews and full documentation: [StepStone Jobs Scraper](https://apify.com/carabain-digital/stepstone-jobs?fpr=4ijnom)

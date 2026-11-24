@@ -7,11 +7,11 @@ description: "Scrape the Discogs marketplace: every record copy for sale per rel
 
 Scrape the Discogs marketplace: every record copy for sale per release, master or seller. Price, shipping, converted price, media and sleeve condition, seller notes and rating, plus release have/want, last sold and low/median/high price. Reliable, no login.
 
-Runs on Apify as the Actor [`carabain-digital/discogs-marketplace`](https://apify.com/carabain-digital/discogs-marketplace), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/discogs-marketplace`](https://apify.com/carabain-digital/discogs-marketplace?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 3,333 marketplace listings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 3,333 marketplace listings with this Actor.
 
 ## Run it
 
@@ -133,4 +133,4 @@ One dataset item per result. Main fields: `title`, `price`, `currency`, `convert
 
 Pay per result: $1.50 per 1,000 marketplace listings on the Apify Free plan, less on paid plans. No subscription; Apify bills the run to the user's account.
 
-Store page, reviews and full documentation: [Discogs Marketplace Scraper](https://apify.com/carabain-digital/discogs-marketplace)
+Store page, reviews and full documentation: [Discogs Marketplace Scraper](https://apify.com/carabain-digital/discogs-marketplace?fpr=4ijnom)

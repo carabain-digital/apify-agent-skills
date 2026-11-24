@@ -7,11 +7,11 @@ description: "Full-page screenshots (PNG, JPEG) and real text PDFs of any web pa
 
 Full-page screenshots (PNG, JPEG) and real text PDFs of any web page, also behind Cloudflare and other bot walls. Cookie banners and popups removed. Built-in residential proxy fallback.
 
-Runs on Apify as the Actor [`carabain-digital/website-screenshot-pdf`](https://apify.com/carabain-digital/website-screenshot-pdf), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/website-screenshot-pdf`](https://apify.com/carabain-digital/website-screenshot-pdf?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 1,000 captured pages with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 1,000 captured pages with this Actor.
 
 ## Run it
 
@@ -122,4 +122,4 @@ One dataset item per result. Main fields: `fileUrl`, `url`, `title`, `statusCode
 Pay per result: $5.00 per 1,000 captured pages on the Apify Free plan, less on paid plans, plus $0.01 per run start per GB of memory. No subscription; Apify bills the run to the user's account.
 - Unblocked page (residential IP): $5.00 per 1,000. One page that was loaded through a residential IP: a page that blocked the direct load (Cloudflare, DataDome, HTTP 403/429), or every page with Capture from country. Charged only when the capture succeeded.
 
-Store page, reviews and full documentation: [Website Screenshot & PDF - Full Page, Any Site](https://apify.com/carabain-digital/website-screenshot-pdf)
+Store page, reviews and full documentation: [Website Screenshot & PDF - Full Page, Any Site](https://apify.com/carabain-digital/website-screenshot-pdf?fpr=4ijnom)

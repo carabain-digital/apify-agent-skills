@@ -7,11 +7,11 @@ description: "Search Huislijn and Pararius at once for huurwoningen and koopwoni
 
 Search Huislijn and Pararius at once for huurwoningen and koopwoningen in the Netherlands. One search, one dataset: merged, deduplicated on postcode and house number, newest first. Optional details and price history. Proxy included. JSON, CSV, Excel.
 
-Runs on Apify as the Actor [`carabain-digital/netherlands-real-estate`](https://apify.com/carabain-digital/netherlands-real-estate), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/netherlands-real-estate`](https://apify.com/carabain-digital/netherlands-real-estate?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 5,000 listings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 5,000 listings with this Actor.
 
 ## Run it
 
@@ -154,4 +154,4 @@ Pay per result: $1.00 per 1,000 listings on the Apify Free plan, less on paid pl
 - Full details: $2.00 per 1,000. Opens each listing's detail page on Huislijn and Pararius: description, coordinates, area, agent and more. Pararius details are best effort.
 - Price history: $1.00 per 1,000. One listing that already had a history in your named store, annotated with previous price, price change and the price/status history. The first run of a listing is free.
 
-Store page, reviews and full documentation: [Netherlands Real Estate Scraper](https://apify.com/carabain-digital/netherlands-real-estate)
+Store page, reviews and full documentation: [Netherlands Real Estate Scraper](https://apify.com/carabain-digital/netherlands-real-estate?fpr=4ijnom)

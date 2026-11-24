@@ -7,11 +7,11 @@ description: "Scrape all reviews of a company on Kiyoh.com: author, rating (1-5)
 
 Scrape all reviews of a company on Kiyoh.com: author, rating (1-5), title, text, date and the company's reply.
 
-Runs on Apify as the Actor [`carabain-digital/kiyoh-reviews`](https://apify.com/carabain-digital/kiyoh-reviews), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/kiyoh-reviews`](https://apify.com/carabain-digital/kiyoh-reviews?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 2,500 reviews with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 2,500 reviews with this Actor.
 
 ## Run it
 
@@ -87,4 +87,4 @@ One dataset item per result. Main fields: `published_at`, `rating_10`, `rating`,
 Pay per result: $2.00 per 1,000 reviews on the Apify Free plan, less on paid plans. No subscription; Apify bills the run to the user's account.
 - AI review analysis: $3.00 per 1,000. Sentiment, a score from -1 to 1, topics and a one-line summary for each review with text.
 
-Store page, reviews and full documentation: [Kiyoh Reviews Scraper](https://apify.com/carabain-digital/kiyoh-reviews)
+Store page, reviews and full documentation: [Kiyoh Reviews Scraper](https://apify.com/carabain-digital/kiyoh-reviews?fpr=4ijnom)

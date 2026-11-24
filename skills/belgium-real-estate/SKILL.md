@@ -7,11 +7,11 @@ description: "Search Zimmo, Immoweb and Immovlan at once for homes in Belgium (t
 
 Search Zimmo, Immoweb and Immovlan at once for homes in Belgium (te koop, te huur). One search, one dataset: merged, deduplicated on postcode and house number, newest first. Optional full details and price history. Residential proxy included. Export to JSON, CSV or Excel.
 
-Runs on Apify as the Actor [`carabain-digital/belgium-real-estate`](https://apify.com/carabain-digital/belgium-real-estate), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/belgium-real-estate`](https://apify.com/carabain-digital/belgium-real-estate?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 6,250 listings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 6,250 listings with this Actor.
 
 ## Run it
 
@@ -152,4 +152,4 @@ Pay per result: $0.80 per 1,000 listings on the Apify Free plan, less on paid pl
 - Full details: $2.00 per 1,000. Opens each listing's detail page on Immoweb and Immovlan: description, coordinates, area, agent and more. Zimmo listings already have them and are not charged.
 - Price history: $1.00 per 1,000. One listing that already had a history in your named store, annotated with previous price, price change and the price/status history. The first run of a listing is free.
 
-Store page, reviews and full documentation: [Belgium Real Estate Scraper](https://apify.com/carabain-digital/belgium-real-estate)
+Store page, reviews and full documentation: [Belgium Real Estate Scraper](https://apify.com/carabain-digital/belgium-real-estate?fpr=4ijnom)

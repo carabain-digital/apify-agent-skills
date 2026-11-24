@@ -7,11 +7,11 @@ description: "Search SeLoger, Bien'ici and PAP at once for annonces immobilière
 
 Search SeLoger, Bien'ici and PAP at once for annonces immobilières in France: appartements and maisons, location or vente. One search, one dataset, merged and newest first. Optional full details and price history. Residential proxy included. JSON, CSV or Excel.
 
-Runs on Apify as the Actor [`carabain-digital/france-real-estate`](https://apify.com/carabain-digital/france-real-estate), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/france-real-estate`](https://apify.com/carabain-digital/france-real-estate?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 3,333 listings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 3,333 listings with this Actor.
 
 ## Run it
 
@@ -150,4 +150,4 @@ Pay per result: $1.50 per 1,000 listings on the Apify Free plan, less on paid pl
 - Full details: $2.00 per 1,000. Opens each listing's page on SeLoger, Bien'ici and PAP: full description, coordinates, rent without charges, DPE values, agency contact, all photos and more.
 - Price history: $1.00 per 1,000. One listing that already had a history in your named store, annotated with previous price, price change and the price/status history. The first run of a listing is free.
 
-Store page, reviews and full documentation: [France Real Estate Scraper](https://apify.com/carabain-digital/france-real-estate)
+Store page, reviews and full documentation: [France Real Estate Scraper](https://apify.com/carabain-digital/france-real-estate?fpr=4ijnom)

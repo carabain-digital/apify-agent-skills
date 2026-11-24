@@ -7,11 +7,11 @@ description: "Scrape car listings from mobile.de, Germany's largest car marketpl
 
 Scrape car listings from mobile.de, Germany's largest car marketplace: make, model, price, mileage, year, fuel, power, seller, photos and mobile.de's price rating. Filter by make, model, price, year, km, fuel, body, location. Newest first. Add-ons: full details, price history.
 
-Runs on Apify as the Actor [`carabain-digital/mobile-de-listings`](https://apify.com/carabain-digital/mobile-de-listings), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/mobile-de-listings`](https://apify.com/carabain-digital/mobile-de-listings?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 10,000 car listings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 10,000 car listings with this Actor.
 
 ## Run it
 
@@ -178,4 +178,4 @@ Pay per result: $0.50 per 1,000 car listings on the Apify Free plan, less on pai
 - Full details: $0.50 per 1,000. One listing enriched from its ad page: description, equipment list, all attributes (previous owners, HU, consumption, CO2 ...), all photos, all seller phones and WhatsApp, contact person, opening hours, dealer ratings, KBA codes and mobile.de's AI summary.
 - Price history: $1.00 per 1,000. One listing that already had history in your named history store, enriched with first_seen_at, previous_price, price_change, price_change_pct, status_changed and price_history. The first run of a listing is free.
 
-Store page, reviews and full documentation: [mobile.de Car Listings Scraper](https://apify.com/carabain-digital/mobile-de-listings)
+Store page, reviews and full documentation: [mobile.de Car Listings Scraper](https://apify.com/carabain-digital/mobile-de-listings?fpr=4ijnom)

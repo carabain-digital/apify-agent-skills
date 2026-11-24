@@ -7,11 +7,11 @@ description: "Search CarGurus, Autotrader, Cars.com, TrueCar, CarMax, Edmunds, C
 
 Search CarGurus, Autotrader, Cars.com, TrueCar, CarMax, Edmunds, Carvana and Craigslist at once for used and new cars in the US. One search by make, model, price, year, mileage and ZIP code; one dataset merged and deduplicated on VIN, newest first. Optional details and price history. Proxy included.
 
-Runs on Apify as the Actor [`carabain-digital/usa-cars`](https://apify.com/carabain-digital/usa-cars), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/usa-cars`](https://apify.com/carabain-digital/usa-cars?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 5,000 listings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 5,000 listings with this Actor.
 
 ## Run it
 
@@ -258,4 +258,4 @@ Pay per result: $1.00 per 1,000 listings on the Apify Free plan, less on paid pl
 - Full details: $1.20 per 1,000. Opens each listing on its site: description, all photos, equipment, history flags, dealer details and more. Charged only for listings that were enriched.
 - Price history: $1.00 per 1,000. One listing that already had a history in your named store, annotated with previous price, price change and the price history. The first run of a listing is free.
 
-Store page, reviews and full documentation: [USA Car Listings Scraper](https://apify.com/carabain-digital/usa-cars)
+Store page, reviews and full documentation: [USA Car Listings Scraper](https://apify.com/carabain-digital/usa-cars?fpr=4ijnom)

@@ -7,11 +7,11 @@ description: "Scrape BBB (Better Business Bureau, bbb.org) business listings by 
 
 Scrape BBB (Better Business Bureau, bbb.org) business listings by keyword and location: name, BBB rating, accreditation, phone, address, categories. Add-ons: owners and contacts, email, website, business details, customer reviews and complaints.
 
-Runs on Apify as the Actor [`carabain-digital/bbb-scraper`](https://apify.com/carabain-digital/bbb-scraper), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/bbb-scraper`](https://apify.com/carabain-digital/bbb-scraper?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 2,000 businesss with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 2,000 businesss with this Actor.
 
 ## Run it
 
@@ -149,4 +149,4 @@ Pay per result: $2.50 per 1,000 businesss on the Apify Free plan, less on paid p
 - Customer review: $1.50 per 1,000. One BBB customer review of a business: rating, text, date, author and the business's reply.
 - Complaint: $1.50 per 1,000. One BBB complaint against a business: type, status, date, text and the replies of business and customer.
 
-Store page, reviews and full documentation: [BBB Scraper - Leads, Ratings, Reviews, Complaints](https://apify.com/carabain-digital/bbb-scraper)
+Store page, reviews and full documentation: [BBB Scraper - Leads, Ratings, Reviews, Complaints](https://apify.com/carabain-digital/bbb-scraper?fpr=4ijnom)

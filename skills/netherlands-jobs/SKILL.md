@@ -7,11 +7,11 @@ description: "Search Nationale Vacaturebank, Intermediair and Jobbird at once fo
 
 Search Nationale Vacaturebank, Intermediair and Jobbird at once for vacatures in the Netherlands. One keyword, one dataset: merged, deduplicated across boards, newest first. Optional full descriptions. Residential proxy included. Export to JSON, CSV or Excel.
 
-Runs on Apify as the Actor [`carabain-digital/netherlands-jobs`](https://apify.com/carabain-digital/netherlands-jobs), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/netherlands-jobs`](https://apify.com/carabain-digital/netherlands-jobs?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 6,666 job postings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 6,666 job postings with this Actor.
 
 ## Run it
 
@@ -112,4 +112,4 @@ One dataset item per result. Main fields: `posted_at`, `source`, `title`, `compa
 Pay per result: $0.75 per 1,000 job postings on the Apify Free plan, less on paid plans. No subscription; Apify bills the run to the user's account.
 - Full details: $1.00 per 1,000. Opens each job's detail page on Jobbird: full description, apply link and extra fields. Nationale Vacaturebank and Intermediair jobs already have one and are not charged.
 
-Store page, reviews and full documentation: [Netherlands Jobs Scraper](https://apify.com/carabain-digital/netherlands-jobs)
+Store page, reviews and full documentation: [Netherlands Jobs Scraper](https://apify.com/carabain-digital/netherlands-jobs?fpr=4ijnom)

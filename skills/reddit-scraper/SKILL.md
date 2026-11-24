@@ -7,11 +7,11 @@ description: "Scrape Reddit posts, comments, subreddits, users and search result
 
 Scrape Reddit posts, comments, subreddits, users and search results without login or API key: title, text, score, upvote ratio, comments with replies, flair, media. Same output as Reddit Scraper Lite, with a built-in residential proxy.
 
-Runs on Apify as the Actor [`carabain-digital/reddit-scraper`](https://apify.com/carabain-digital/reddit-scraper), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/reddit-scraper`](https://apify.com/carabain-digital/reddit-scraper?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 5,555 items with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 5,555 items with this Actor.
 
 ## Run it
 
@@ -134,4 +134,4 @@ One dataset item per result. Main fields: `dataType`, `username`, `title`, `body
 
 Pay per result: $0.90 per 1,000 items on the Apify Free plan, less on paid plans. No subscription; Apify bills the run to the user's account.
 
-Store page, reviews and full documentation: [Reddit Scraper - Posts, Comments, Search](https://apify.com/carabain-digital/reddit-scraper)
+Store page, reviews and full documentation: [Reddit Scraper - Posts, Comments, Search](https://apify.com/carabain-digital/reddit-scraper?fpr=4ijnom)

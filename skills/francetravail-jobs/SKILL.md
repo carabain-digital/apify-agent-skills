@@ -7,11 +7,11 @@ description: "Scrape job postings from France Travail (ex Pôle emploi, candidat
 
 Scrape job postings from France Travail (ex Pôle emploi, candidat.francetravail.fr): title, employer, city, contract (CDI, CDD, intérim, alternance), date and partner board; salary, ROME code and full text with the add-on. Filter by keyword, city, radius, contract.
 
-Runs on Apify as the Actor [`carabain-digital/francetravail-jobs`](https://apify.com/carabain-digital/francetravail-jobs), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/francetravail-jobs`](https://apify.com/carabain-digital/francetravail-jobs?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 10,000 job postings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 10,000 job postings with this Actor.
 
 ## Run it
 
@@ -129,4 +129,4 @@ One dataset item per result. Main fields: `posted_at`, `title`, `company`, `city
 Pay per result: $0.50 per 1,000 job postings on the Apify Free plan, less on paid plans. No subscription; Apify bills the run to the user's account.
 - Full details: $1.00 per 1,000. One job enriched with its detail: the full job description, salary (parsed and as text), ROME occupation, experience, training, skills, company website, working hours and last-modified date.
 
-Store page, reviews and full documentation: [France Travail Jobs Scraper](https://apify.com/carabain-digital/francetravail-jobs)
+Store page, reviews and full documentation: [France Travail Jobs Scraper](https://apify.com/carabain-digital/francetravail-jobs?fpr=4ijnom)

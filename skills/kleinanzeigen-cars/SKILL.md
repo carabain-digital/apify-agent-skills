@@ -7,11 +7,11 @@ description: "Scrape car listings from Kleinanzeigen (kleinanzeigen.de), Germany
 
 Scrape car listings from Kleinanzeigen (kleinanzeigen.de), Germany's biggest classifieds site: make, model, price, mileage, year, fuel, gearbox, body, seller and photos. Filter by make, model, price, year, mileage, location. Add-ons: full details with dealer phone, price history.
 
-Runs on Apify as the Actor [`carabain-digital/kleinanzeigen-cars`](https://apify.com/carabain-digital/kleinanzeigen-cars), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/kleinanzeigen-cars`](https://apify.com/carabain-digital/kleinanzeigen-cars?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 10,000 car listings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 10,000 car listings with this Actor.
 
 ## Run it
 
@@ -174,4 +174,4 @@ Pay per result: $0.50 per 1,000 car listings on the Apify Free plan, less on pai
 - Full details: $1.00 per 1,000. One listing enriched with its page: make and model, fuel, gearbox, power, body type, colour, doors, HU date, emission class, equipment, full description, all photos, seller type, name and ID, dealer phone, exact postcode, coordinates and publication date.
 - Price history: $1.00 per 1,000. One listing that already had history in your named history store, enriched with first_seen_at, previous_price, price_change, price_change_pct, status_changed and price_history. The first run of a listing is free.
 
-Store page, reviews and full documentation: [Kleinanzeigen Car Listings Scraper](https://apify.com/carabain-digital/kleinanzeigen-cars)
+Store page, reviews and full documentation: [Kleinanzeigen Car Listings Scraper](https://apify.com/carabain-digital/kleinanzeigen-cars?fpr=4ijnom)

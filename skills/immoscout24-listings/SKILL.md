@@ -7,11 +7,11 @@ description: "Scrape property listings from ImmoScout24 (immobilienscout24.de), 
 
 Scrape property listings from ImmoScout24 (immobilienscout24.de), Germany's biggest real-estate portal: apartments, houses, land, garages and WG rooms for rent or sale. Filter by city, price, rooms and area. Newest first. Add-ons: full details with agent phone, price history.
 
-Runs on Apify as the Actor [`carabain-digital/immoscout24-listings`](https://apify.com/carabain-digital/immoscout24-listings), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/immoscout24-listings`](https://apify.com/carabain-digital/immoscout24-listings?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 7,692 listings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 7,692 listings with this Actor.
 
 ## Run it
 
@@ -144,4 +144,4 @@ Pay per result: $0.65 per 1,000 listings on the Apify Free plan, less on paid pl
 - Full details: $1.00 per 1,000. One listing enriched with its exposé: description, features and location texts, all attributes, bedrooms, bathrooms, plot area, construction year, total rent and service charges, federal state, agent name, phone and profile, all photos.
 - Price history: $1.00 per 1,000. One listing that already had history in your named history store, enriched with first_seen_at, previous_price, price_change, price_change_pct, status_changed and price_history. The first run of a listing is free.
 
-Store page, reviews and full documentation: [ImmoScout24 Scraper - German Property Listings](https://apify.com/carabain-digital/immoscout24-listings)
+Store page, reviews and full documentation: [ImmoScout24 Scraper - German Property Listings](https://apify.com/carabain-digital/immoscout24-listings?fpr=4ijnom)

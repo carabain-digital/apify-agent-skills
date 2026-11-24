@@ -7,11 +7,11 @@ description: "Scrape real-estate listings from Zimmo (zimmo.be), Belgium: houses
 
 Scrape real-estate listings from Zimmo (zimmo.be), Belgium: houses, apartments, land and commercial property for sale and for rent. Filter by city or postcode, price, bedrooms, living area and type. Price, address, EPC, agent, photos and the site's own price history. Fast, no proxy needed.
 
-Runs on Apify as the Actor [`carabain-digital/zimmo-listings`](https://apify.com/carabain-digital/zimmo-listings), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/zimmo-listings`](https://apify.com/carabain-digital/zimmo-listings?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 10,000 listings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 10,000 listings with this Actor.
 
 ## Run it
 
@@ -134,4 +134,4 @@ One dataset item per result. Main fields: `listed_at`, `title`, `city`, `price`,
 Pay per result: $0.50 per 1,000 listings on the Apify Free plan, less on paid plans. No subscription; Apify bills the run to the user's account.
 - Price history: $1.00 per 1,000. One listing that already had history in your named history store, enriched with first_seen_at, previous_price, price_change, price_change_pct, status_changed and price_history. The first run of a listing is free.
 
-Store page, reviews and full documentation: [Zimmo Listings Scraper](https://apify.com/carabain-digital/zimmo-listings)
+Store page, reviews and full documentation: [Zimmo Listings Scraper](https://apify.com/carabain-digital/zimmo-listings?fpr=4ijnom)

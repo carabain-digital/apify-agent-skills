@@ -7,11 +7,11 @@ description: "Scrape resale ticket listings from TicketSwap: price per ticket wi
 
 Scrape resale ticket listings from TicketSwap: price per ticket with and without fees, face value, quantity, seats, seller note, ticket type, event, date, venue and city. Event, ticket-type or city URLs; available, reserved and sold listings; any currency.
 
-Runs on Apify as the Actor [`carabain-digital/ticketswap-listings`](https://apify.com/carabain-digital/ticketswap-listings), billed per result to the user's own Apify account.
+Runs on Apify as the Actor [`carabain-digital/ticketswap-listings`](https://apify.com/carabain-digital/ticketswap-listings?fpr=4ijnom), billed per result to the user's own Apify account.
 
 ## Setup
 
-The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 2,500 listings with this Actor.
+The user needs an Apify API token in `APIFY_TOKEN` ([console.apify.com/settings/integrations](https://console.apify.com/settings/integrations)). No Apify account yet? [Sign up free](https://console.apify.com/sign-up?fpr=4ijnom): no credit card needed, and the Free plan includes $5 of credit every month, enough for about 2,500 listings with this Actor.
 
 ## Run it
 
@@ -118,4 +118,4 @@ One dataset item per result. Main fields: `event_name`, `event_date`, `city`, `t
 
 Pay per result: $2.00 per 1,000 listings on the Apify Free plan, less on paid plans, plus $0.025 per run start per GB of memory. No subscription; Apify bills the run to the user's account.
 
-Store page, reviews and full documentation: [TicketSwap Listings Scraper](https://apify.com/carabain-digital/ticketswap-listings)
+Store page, reviews and full documentation: [TicketSwap Listings Scraper](https://apify.com/carabain-digital/ticketswap-listings?fpr=4ijnom)
