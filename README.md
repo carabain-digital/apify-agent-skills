@@ -169,6 +169,7 @@ billed per result to your own Apify account.
 
 | Skill | What it does | `--skill` | Actor |
 |---|---|---|---|
+| [Benelux Fund Prices](skills/benelux-fund-prices/SKILL.md) | Daily NAV of NL/BE insurer, pension and bank funds: NN, a.s.r./Aegon, Brand New Day, Achmea, AG, Allianz, tak 23, BEAMA. History. JSON/CSV. | `benelux-fund-prices` | [Apify Store](https://apify.com/carabain-digital/benelux-fund-prices?fpr=4ijnom) |
 | [Bring a Trailer Auctions Scraper](skills/bringatrailer-listings/SKILL.md) | Scrape bringatrailer.com collector-car auctions: live bids, sold prices, reserve status, make, model, year, mileage. Filter and export JSON/CSV/Excel. | `bringatrailer-listings` | [Apify Store](https://apify.com/carabain-digital/bringatrailer-listings?fpr=4ijnom) |
 | [Discogs Marketplace Scraper](skills/discogs-marketplace/SKILL.md) | Scrape the Discogs marketplace: every copy for sale with price, shipping, media and sleeve condition, seller rating, last sold and median price. JSON/CSV. | `discogs-marketplace` | [Apify Store](https://apify.com/carabain-digital/discogs-marketplace?fpr=4ijnom) |
 | [Google Sheets Export](skills/google-sheets-export/SKILL.md) | Export any Apify dataset to Google Sheets: replace, append, or add only new rows by key. Reliable service account, big datasets, schedules. | `google-sheets-export` | [Apify Store](https://apify.com/carabain-digital/google-sheets-export?fpr=4ijnom) |
