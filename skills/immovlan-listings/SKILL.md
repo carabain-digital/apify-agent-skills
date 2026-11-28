@@ -40,7 +40,7 @@ MCP: add the Apify MCP server with this Actor as a tool: `https://mcp.apify.com/
 
 | Field | Type | Description |
 |---|---|---|
-| `location` | string | Belgian municipality, postcode, province or region. Example: `Gent`, `9000` or `Brussels`. A municipality includes its suburbs, like on the site. Leave empty for all of Belgium. |
+| `location` | string | Belgian municipality, postcode, province or region. Example: `Gent`, `9000` or `Brussels`; several separated by commas, e.g. `8500, 8790, Zulte`. A municipality includes its suburbs, like on the site. Leave empty for all of Belgium. |
 | `listing_type` | string | `sale` for properties for sale, `rent` for rentals. Example: `sale`. Values: `sale`, `rent`. Default: `"sale"`. |
 | `property_type` | string | Only this kind of property. Example: `apartment`. Leave empty for all types. Values: `house`, `apartment`, `land`, `commercial`, `parking`. |
 | `min_price` | integer | Minimum price in euro (monthly rent for rentals). Example: `200000`. |
